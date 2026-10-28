@@ -57,3 +57,5 @@ PORT = 8000
 with socketserver.TCPServer(("", PORT), AuthHandler) as httpd:
     print(f"Server running at http://localhost:{PORT}")
     httpd.serve_forever()
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=server.py
